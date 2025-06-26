@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Tech Solutions</title>
+  <style>
+    body {
+      background-color: #F2F2F2;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+      border-radius: 0%;
+      border: 2px solid #CCCCCC;
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      display: flex;
+      gap: 12px;
+      margin-left: 47em;
+      font-size: 1em;
+      margin-top: -3em;
+    }
+
+    #navbar a {
+      color: #F2F2F2;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    #navbar a:hover {
+      background-color: #E67E22;
+      border-radius: 6px;
+      color: #fff;
+    }
+
+    .header {
+      height: 32em;
+      background-color: #003366;
+      background-position: initial;
+      background-repeat: no-repeat;
+      padding: 20px;
+      border: 3px solid #CCCCCC;
+    }
+
+    h2 {
+      margin-left: 4em;
+      color: #F2F2F2;
+      font-family: 'Lucida Sans', sans-serif;
+      font-size: 2em;
+    }
+    .quote-image-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 60px;
+      gap: 20px;
+      padding: 0 40px;
+    }
+
+    #quote {
+      flex: 1;
+      color: #F2F2F2;
+      font-size: 1.8em;
+      font-style: italic;
+      text-align: left;
+      margin: 0;
+    }
+
+    .quote-img {
+      width: 40%;
+      max-width: 500px;
+      height: 387px;
+      border-radius: 10px;
+    }
+
+    .content {
+      height: 352px;
+      background-color: #003366;
+      border: 3px solid #CCCCCC;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      color: #F2F2F2;
+    }
+
+    h3 {
+      margin-top: 1em;
+      text-align: center;
+      color: #F2F2F2;
+      font-size: 3em;
+    }
+
+    #quote1 {
+      color: #F2F2F2;
+      font-size: 2.1em;
+      margin-top: 30px;
+      font-style: italic;
+      margin-left: 3em;
+    }
+
+    .services-title {
+      color: #E67E22;
+      margin-left: 222px;
+      margin-top: 50px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    #btn {
+      margin-left: 310px;
+      padding: 10px 15px;
+      background-color: #E67E22;
+      color: white;
+      border-radius: 10px;
+      border: none;
+    }
+
+    #btn a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .p1 {
+      color: #F2F2F2;
+      font-size: 25px;
+      margin: 20px;
+    }
+
+    .foot {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 3px;
+      position: relative;
+      bottom: 0;
+      border: 3px solid #003366;
+      border-radius: 10px;
+    }
+
+    .main-options {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2em;
+    }
+
+    #services, .career {
+      flex: 1;
+      margin: 1em;
+      padding: 20px;
+      color: #F2F2F2;
+      background-color: #003366;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 2px solid #CCCCCC;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      min-height: 22em;
+    }
+
+    #bt {
+      margin-left: 56em;
+      padding: 10px 28px;
+      background-color: #E67E22;
+      border-radius: 15px;
+      border: none;
+    }
+
+    #bt a {
+      text-decoration: none;
+      color: white;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img class="logo" src="rahul_tech_solutions_logo.png" alt="logo">
+      <h2>Rahul Tech Solutions</h2>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Career.html">Career</a></li>
+          <li><a href="Digital.html">Digital Tech</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="quote-image-container">
+        <p id="quote">Where innovation meets execution — Rahul Tech Solutions, redefining tomorrow's technology today</p>
+        <img src="unnamed.png" alt="img" class="quote-img">
+      </div>
+    </div>
+
+    <div class="content">
+      <h3>Digital Technology</h3>
+      <p id="quote1">Rahul Tech Solutions is entering the digital tech space with bold vision, smart strategy, and a commitment to transform industries through innovation</p>
+      <button id="bt"><a href="Digital.html">More</a></button>
+    </div>
+
+    <div class="main-options">
+      <div id="services">
+        <p class="services-title">Our Services</p>
+        <p class="p1">We offer a wide range of services including software development, IT consulting, cloud solutions, and digital transformation. Our team of experts is dedicated to delivering high-quality solutions tailored to meet the unique needs of our clients.
+        At Rahul Tech Solutions, we believe in leveraging the power of technology to drive business success.</p>
+        <button id="btn"><a href="Services.html">services</a></button>
+      </div>
+      <div class="career">
+        <p class="services-title">Join Our Team</p>
+        <p class="p1">We are always looking for talented individuals to join our team. If you are passionate about technology and want to make a difference, we would love to hear from you.
+        At Rahul Tech Solutions, we offer a dynamic work environment, opportunities for professional growth, and the chance to work on exciting projects that shape the future of technology.</p>
+        <button id="btn"><a href="Career.html">Career</a></button>
+      </div>
+    </div>
+
+    <div class="foot">
+      <footer>
+        <p>&copy; 2025 Rahul Tech Solutions. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

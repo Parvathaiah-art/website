@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Rahul Tech Solutions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #F2F2F2;
+    }
+    header {
+      background-color: #003366;
+      color: #F2F2F2;
+      padding: 17px;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #F2F2F2;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #E67E22;
+    }
+    #h {
+      margin-left: 133px;
+      font-weight: bold;
+      color: #F2F2F2;
+    }
+    .logo {
+      width: 120px;
+      height: auto;
+      position: absolute;
+      top: 33px;
+      left: 20px;
+      border-radius: 0%;
+      border: 2px solid #CCCCCC;
+    }
+    .container {
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #003366;
+
+    }
+    p {
+      margin-left: 30px;
+      font-size: 18px;
+      color: #333333;
+    }
+    form {
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+    }
+    label, input, textarea {
+      display: block;
+      margin-top: 1em;
+      font-size: 1em;
+      width: 100%;
+    }
+    input, textarea {
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #003366;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #005599;
+    }
+    .cont {
+      background-color: #E6F0FA;
+      color: #003366;
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #CCCCCC;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 40px auto 20px auto;
+    }
+    .cont a {
+      color: #003366;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .cont a:hover {
+      color: #E67E22;
+    }
+    .foot {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      border-top: 3px solid #003366;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="rahul_tech_solutions_logo.png" alt="logo">
+    <h2 id="h">Rahul Tech Solutions</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="career.html">Career</a>
+      <a href="Digital.html">Digital Tech</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p style="font-size: 20px; text-align:center;">We would love to hear from you! Please fill out the form below to get in touch with us.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write something..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="cont">
+      <h2>Contact Information</h2>
+      <p><strong>Email:</strong> rahultech@solutions.in</p>
+      <p><strong>Phone:</strong> +91 1234567890</p>
+      <p><strong>Address:</strong> 123 Tech Street, Silicon Valley, CA 94043</p>
+      <p><strong>Follow us on social media:</strong></p>
+      <p>
+        <a href="https://www.facebook.com/RahulTechSolutions" target="_blank">Facebook</a> 
+        <a href="https://www.twitter.com/RahulTechSolutions" target="_blank">X[Twitter]</a> 
+        <a href="https://www.linkedin.com/company/rahultechsolutions" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <footer>
+      <p>&copy; 2025 Rahul Tech Solutions. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
